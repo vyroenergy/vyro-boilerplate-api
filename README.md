@@ -14,7 +14,9 @@ Once you have your credentials, rename `.env.sample` to `.env` and fill in the v
 
 ### Local Environment
 
-We recommend using **Node version 20** or greater. You'll also need [pnpm](https://pnpm.io/) installed. You can install it globally with:
+We recommend using **Node version 20** or greater. You can check your node version with `node -v`.
+
+You'll also need [pnpm](https://pnpm.io/) installed. You can install it globally with:
 
 ```bash
 npm install -g pnpm

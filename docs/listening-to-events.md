@@ -22,6 +22,10 @@ Replace the `[Insert App Name]` with a unique name of your app.
 
 App Codes must be globally unique, lowercase, and can only contain letters, numbers, and hyphens. For example, `my-awesome-app` is a valid app code, while `My Awesome App!` is not.
 
+`npx` is a package runner that comes with npm 5.2+ and higher. It allows you to run commands from packages that are not installed globally on your system.
+
+The `@vyro-x/app-cli` package is a command line interface for creating and managing Vyro apps.
+
 ## Publish your App
 
 In the previous step we created a file called `vyro.config.yml`. This file contains the configuration for your app. The default config is perfect for testing, but you can modify it in the future to suit your needs.
@@ -53,6 +57,11 @@ Your terminal should print something like:
 ```bash
 Tunneling tester events to https://red-places-see.loca.lt/events/enquiry-created for 24 hours.
 ```
+
+### Common Issues
+
+- Check that your local server is running on port 4000. You can start it with `pnpm start` (in a separate terminal).
+- Check that your network is accessible from the internet.
 
 ## Trigger an Event
 
