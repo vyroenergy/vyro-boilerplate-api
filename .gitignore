@@ -1,0 +1,5 @@
+dist
+node_modules
+.env
+x-local
+vyro.config.yaml
