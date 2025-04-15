@@ -28,10 +28,10 @@ This file contains the code that handles the API call to Vyro.
 
 ## Trigger the Endpoint
 
-To trigger the endpoint, you can use a tool like [Postman](https://www.postman.com/), [Insomnia](https://insomnia.rest/), or just open your browser and navigate to:
+To trigger the endpoint, you can use a tool like [Postman](https://www.postman.com/), [Insomnia](https://insomnia.rest/), or using a simple curl command.
 
 ```
-http://localhost:4000/report
+curl http://localhost:4000/report
 ```
 
 You should see a JSON response with data pertaining your Vyro account's page views, etc.

@@ -36,10 +36,10 @@ You can find your Showroom Code in the [Vyro Dashboard](https://dashboard.vyrola
 
 ## Trigger the Endpoint
 
-To trigger the endpoint, you can use a tool like [Postman](https://www.postman.com/), [Insomnia](https://insomnia.rest/), or just open your browser and navigate to:
+To trigger the endpoint, you can use a tool like [Postman](https://www.postman.com/), [Insomnia](https://insomnia.rest/), or using a simple curl command.
 
 ```
-http://localhost:4000/inventory
+curl -X POST http://localhost:4000/inventory
 ```
 
 You should see a JSON response with data containing a link to your Dashboard Inventory page where you can see the data you just uploaded.

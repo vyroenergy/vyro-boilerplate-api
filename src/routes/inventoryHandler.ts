@@ -23,7 +23,8 @@ export const inventoryHandler: Handler = async (req, res, next) => {
   // Go to the showroom settings page and copy the code from the URL
   // For example, if the URL is /showrooms/12345/...
   // Then your showroom code is 12345
-  const SHOWROOM_CODE = "[My Showroom Code]";
+  // const SHOWROOM_CODE = "[My Showroom Code]";
+  const SHOWROOM_CODE = "lynkco";
 
   try {
     const showroomId = await getShowroomId(SHOWROOM_CODE);
