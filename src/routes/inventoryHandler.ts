@@ -14,7 +14,7 @@ import {
 } from "../types/graphql";
 
 /**
- * This endpoint is part of the Simple API Call Guide
+ * This endpoint is part of the Making a call to the Inventory API guide
  * @see [README.md](../../README.md)
  */
 export const inventoryHandler: Handler = async (req, res, next) => {
