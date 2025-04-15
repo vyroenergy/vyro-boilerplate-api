@@ -63,7 +63,7 @@ export const inventoryHandler: Handler = async (req, res, next) => {
             // Create a public page for the listing
             is_published: true,
 
-            // Mark the vehcicle as sold/not-sold
+            // Mark the vehicle as sold/not-sold
             is_sold: false,
           },
           assets: [
