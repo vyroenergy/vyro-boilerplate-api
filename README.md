@@ -30,3 +30,4 @@ We recommend following these guides in order to gain a gradual appreciation for 
 
 1. [Making a simple API call (5 minutes)](docs/simple-api-call.md)
 1. [Listening to events (10 - 15 minutes)](docs/listening-to-events.md)
+1. [Making a call to the Inventory API (5 minutes)](docs/inventory-api.md)

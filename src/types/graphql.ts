@@ -70427,6 +70427,13 @@ export type GetMomentQueryVariables = Exact<{
 
 export type GetMomentQuery = { __typename?: 'query_root', moments_by_pk?: { __typename?: 'moments', id: any, notes: Array<{ __typename?: 'notes', id: any, content: string, created_at: any }>, stocked_vehicle?: { __typename?: 'stocked_vehicles', id: any, vin?: string | null, stock_id?: string | null, production_year: any, make: string, model: string, badge?: string | null, series?: string | null } | null } | null };
 
+export type GetShowroomIdQueryVariables = Exact<{
+  code: Scalars['String']['input'];
+}>;
+
+
+export type GetShowroomIdQuery = { __typename?: 'query_root', showrooms: Array<{ __typename?: 'showrooms', id: any }> };
+
 export type GetMetricsQueryVariables = Exact<{
   from: Scalars['timestamptz']['input'];
   to: Scalars['timestamptz']['input'];

@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@vyro-x/app-events": "^1.1.6",
+    "@vyro-x/inventory-api-client": "^1.0.5",
     "axios": "^1.6.8",
     "body-parser": "^1.20.1",
     "convict": "^6.2.4",

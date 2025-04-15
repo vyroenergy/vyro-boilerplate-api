@@ -8,6 +8,8 @@ const app = express();
 app.use(bodyParser.json());
 
 /**
+ * Reporting Example
+ *
  * Example of a custom route you might define in your own API.
  *
  * This route is unsecured for demonstration purposes — you can add
@@ -19,6 +21,8 @@ app.use(bodyParser.json());
 app.get("/report", routes.reportHandler);
 
 /**
+ * Event Example
+ *
  * This endpoint is triggered by Vyro when a new enquiry is created.
  *
  * It uses `appEvents.eventMiddleware` to validate the request:
@@ -34,6 +38,19 @@ app.post(
   appEvents.eventMiddleware,
   routes.eventHandler
 );
+
+/**
+ * Inventory Example
+ *
+ * Example of a custom route you might define in your own API.
+ *
+ * This route is unsecured for demonstration purposes — you can add
+ * authentication or other middleware as needed.
+ *
+ * In this example, the route could be used by your upstream systems to
+ * create inventory items.
+ */
+app.post("/inventory", routes.inventoryHandler);
 
 /**
  * Global error handler middleware.

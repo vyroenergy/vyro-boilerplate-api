@@ -22,7 +22,7 @@ This will start the server on port 4000.
 
 ## Building an Endpoint
 
-Checkout the file located at [src/routes/reportHandler.ts](src/routes/reportHandler.ts).
+Checkout the file located at [../src/routes/reportHandler.ts](../src/routes/reportHandler.ts).
 
 This file contains the code that handles the API call to Vyro.
 

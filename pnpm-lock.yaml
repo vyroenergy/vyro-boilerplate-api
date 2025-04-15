@@ -8,6 +8,9 @@ dependencies:
   '@vyro-x/app-events':
     specifier: ^1.1.6
     version: 1.1.6
+  '@vyro-x/inventory-api-client':
+    specifier: ^1.0.5
+    version: 1.0.5(axios@1.7.2)
   axios:
     specifier: ^1.6.8
     version: 1.7.2
@@ -1164,6 +1167,14 @@ packages:
       zlib: 1.0.5
     transitivePeerDependencies:
       - debug
+    dev: false
+
+  /@vyro-x/inventory-api-client@1.0.5(axios@1.7.2):
+    resolution: {integrity: sha512-ixc1z3bzYdDYiTgL7WjthuTZUxIYqSUwtUz54rYOXrq7wdp21Zt0gg1THeswCcxUD6L5NkzK26xBCR49D57QSQ==}
+    peerDependencies:
+      axios: '>=0.27.2 <2.0.0'
+    dependencies:
+      axios: 1.7.2
     dev: false
 
   /@whatwg-node/disposablestack@0.0.6:

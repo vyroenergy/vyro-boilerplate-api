@@ -15,10 +15,10 @@ You'll need to know your Showroom Code to do this. You can find it in the [Vyro 
 ## Initialise App Config
 
 ```bash
-npx @vyro-x/app-cli@latest init [Insert App Name]
+npx @vyro-x/app-cli@latest init [Insert App Code]
 ```
 
-Replace the `[Insert App Name]` with a unique name of your app.
+Replace the `[Insert App Code]` with a unique code/name for your app.
 
 App Codes must be globally unique, lowercase, and can only contain letters, numbers, and hyphens. For example, `my-awesome-app` is a valid app code, while `My Awesome App!` is not.
 

@@ -17,6 +17,11 @@ const schema = convict({
     default: "https://graphql.vyrolabs-staging.net",
     env: "VYRO_GRAPHQL_API_ENDPOINT",
   },
+  VYRO_INVENTORY_API_ENDPOINT: {
+    type: String,
+    default: "https://inventory-api.vyrolabs-staging.net",
+    env: "VYRO_INVENTORY_API_ENDPOINT",
+  },
   VYRO_CLIENT_ID: {
     type: String,
     default: "",
