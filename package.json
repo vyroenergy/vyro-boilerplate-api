@@ -32,7 +32,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@vyro-x/app-events": "^1.1.4",
+    "@vyro-x/app-events": "^1.1.6",
     "axios": "^1.6.8",
     "body-parser": "^1.20.1",
     "convict": "^6.2.4",
