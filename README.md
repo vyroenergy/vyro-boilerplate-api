@@ -26,5 +26,5 @@ _P.S the "p" in pnpm isn't a typo, it's an awesome package manager that is faste
 
 We recommend following these guides in order to gain a gradual appreciation for the platform. That said, you're welcome to skip around if you prefer.
 
-1. [Making a simple API call](docs/simple-api-call.md)
-1. [Listening to events](docs/listening-to-events.md)
+1. [Making a simple API call (5 minutes)](docs/simple-api-call.md)
+1. [Listening to events (10 - 15 minutes)](docs/listening-to-events.md)
